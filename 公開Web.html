@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>YanagiWeb</title>
+   <style type="text/css">
+    @import url("import.css");
+   </style>
+</head>
+
+<body>
+   <div class="header">
+      <h1>This is Willow Web</h1>
+   </div>
+   <div class="main1">
+      <h2>チャットスペース</h2>
+      <body>
+         <!-- 自分やユーザーの情報 -->
+         
+         <div id="your_container">
+     
+             <!-- チャットの外側部分① -->
+             <div id="bms_messages_container">
+                 <!-- ヘッダー部分② -->
+                 <div id="bms_chat_header">
+                     <!--ステータス-->
+                     <div id="bms_chat_user_status">
+                         <!--ステータスアイコン-->
+                         <div id="bms_status_icon">●</div>
+                         <!--ユーザー名-->
+                         <div id="bms_chat_user_name">チャット内容</div>
+                     </div>
+                 </div>
+     
+                 <!-- タイムライン部分③ -->
+                 <div id="bms_messages">
+     
+                     <!--メッセージ１（左側）-->
+                     <div class="bms_message bms_left">
+                         <div class="bms_message_box">
+                             <div class="bms_message_content">
+                                 <div class="bms_message_text">ほうほうこりゃー便利じゃないか</div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="bms_clear"></div><!-- 回り込みを解除（スタイルはcssで充てる） -->
+     
+                     <!--メッセージ２（右側）-->
+                     <div class="bms_message bms_right">
+                         <div class="bms_message_box">
+                             <div class="bms_message_content">
+                                 <div class="bms_message_text">うん、まあまあいけとるな</div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="bms_clear"></div><!-- 回り込みを解除（スタイルはcssで充てる） -->
+                 </div>
+     
+                 <!-- テキストボックス、送信ボタン④ -->
+                 <div id="bms_send">
+                     <textarea id="bms_send_message"></textarea>
+                     <div id="bms_send_btn">送信</div>
+                 </div>
+             </div>
+         </div>
+     </body>
+   </div>
+   <div class="main2">
+      <h3>その他の機能</h3>
+   </div>
+   <div class="footer">
+   </div>
+
+   
+
+   </body>
+
+</html>
